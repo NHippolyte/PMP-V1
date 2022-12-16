@@ -1,12 +1,134 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PMP - Version 1</title>
+    <!-- Link Boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Link Font Awesone -->
+    <script src="https://kit.fontawesome.com/add92c8faf.js" crossorigin="anonymous"></script>
+
+
+
 </head>
+
 <body>
-    
+
+    <!-- HEADER -->
+
+    <header>
+        <p>test</p>
+    </header>
+
+    <!-- NAVBAR -->
+
+    <nav class="nav flex-column">
+        <!-- NAVBAR HEAD -->
+        <div id="nav-head">
+            <h1>Votre Liste de modules</h1>
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <img src="https://img.icons8.com/bubbles/50/null/menu.png">
+            </button>
+        </div>
+        <!-- NAVBAR LINK -->
+        <ul class="link-nav">
+            <a class="nav-link1" style="color:black
+                             ;" href="#"><img src="https://img.icons8.com/bubbles/50/null/home-page.png"/> Accueil</a>
+            <a class="nav-link2" style="color:black
+                             ;" href="#">‣<img src="https://img.icons8.com/bubbles/50/null/open-box.png"/>Produit</a>
+            <a class="nav-link3" style="color:black
+                             ;" href="#">‣<img src="https://img.icons8.com/bubbles/50/null/folder-invoices.png"/>Dossiers</a>
+            <a class="nav-link4" style="color:black
+                             ;" href="#">‣<img src="https://img.icons8.com/bubbles/50/null/medal.png"/> Challenges</a>
+            <a class="nav-link1" style="color:black
+                             ;" href="#">‣ <img src="https://img.icons8.com/bubbles/50/null/gender-neutral-user.png"/>Profils</a>
+            <a class="nav-link2" style="color:black
+                             ;" href="#">‣<img src="https://img.icons8.com/bubbles/50/null/conference-call.png"/> Client</a>
+            <a class="nav-link3" style="color:black;" href="#">‣<img src="https://img.icons8.com/bubbles/50/null/bill.png"/> Commandes</a>
+
+        </ul>
+        <!-- NAVBAR CONNEXION -->
+        <div id="connexion">
+            <select class="form-control input-sm mb-md">
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+            </select>
+            <div id="sign"><button><img src="https://img.icons8.com/bubbles/50/null/exit.png"/>Déconnexion</button></div>
+        </div>
+    </nav>
+
+    <!-- 
+            PAGE PRINCIPALE 
+         -->
+    <section id="corps-page">
+        <div id="logo-principal">
+            <img src="./logo/logopmp.png" alt="Logo_PMP">
+            <h2>Bienvenue sur PMP Admin</h2>
+        </div>
+        <!-- 
+            LES PLUS CONSULTÉES
+          -->
+        <div class="middle-bar">
+            <p>Vos consoles les plus consultées</p>
+        </div>
+         <!-- 
+            RUBRIQUES
+          -->
+          <section id="rubriques">
+              <div class="container">
+                  <div class="row">
+                      <div class="rubrique1">
+                          <div class="col-md-4">
+                            <a href="">
+                                <img src="https://img.icons8.com/bubbles/50/null/medal.png"/>
+                                  <h3>Gestion des challenges</h3>
+                                  <p>Ajout/modifications</p>
+                            </a>
+                          </div>
+                      </div>
+                      <div class="rubrique2">
+                          <div class="col-md-4">
+                            <a href="">
+                                <img src="https://img.icons8.com/bubbles/50/null/gender-neutral-user.png"/>
+                                  <h3>Test</h3>
+                                  <p>test</p>
+                            </a>
+                          </div>
+                      </div>
+                      <div class="rubrique3">
+                          <div class="col-md-4">
+                            <a href="#">
+                                <img src="https://img.icons8.com/bubbles/50/null/open-box.png"/>
+                                  <h3>Gestion des produits</h3>
+                                  <p>Produits/ect</p>
+                            </a>
+                          </div>
+                      </div>
+                      <div class="rubrique4">
+                          <div class="col-md-4">
+                            <a href="">
+                                <img src="https://img.icons8.com/bubbles/50/null/home-page.png"/>
+                                  <h3>Acceuil</h3>
+                                  <p>Most viewed</p>
+                            </a>
+                          </div>
+                      </div>
+      
+                  </div>
+      
+              </div>
+          </section>
+    </section>
+
 </body>
+
 </html>

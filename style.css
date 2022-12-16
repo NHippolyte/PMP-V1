@@ -1,0 +1,229 @@
+/*************** GLOBAL **************/
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    height: 110vh;
+    font-weight: 200;
+    background-color: #EAEBED;
+
+}
+
+/*************** HEADER **************/
+
+header {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 5px solid #BDC2C6;
+    background-color: #D8DBDD;
+    width: 89%;
+    position: absolute;
+    right: 0;
+    height: 6vh;
+    align-items: center;
+}
+
+header p {
+    margin-top: 1.5vh;
+    margin-left: 2vh;
+    font-size: 1.2rem;
+
+}
+
+/*************** NAVBAR **************/
+.nav {
+    position: absolute;
+    width: 11vw;
+    border-right: 3px solid #BDC2C6;
+}
+
+#nav-head {
+    display: flex;
+    align-items: flex-end;
+    height: 6vh;
+    margin-bottom: 25px;
+}
+
+#nav-head h1 {
+    font-weight: 200;
+    margin-bottom: 2.5vh;
+    font-size: 0.8rem;
+}
+
+/*************** NAVBAR HAMB **************/
+#nav-head i {
+    height: 2rem;
+    width: 2.2rem;
+    font-size: 1.8rem;
+    color: green;
+    background-color: pink;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.navbar-toggler {
+    background-color: #D8DBDD;
+    position: absolute;
+    width: 5vh;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 2px;
+    margin-right: 1px;
+
+}
+
+/*************** NAVBAR LINK **************/
+
+nav .link-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav .link-nav a {
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+
+}
+
+nav .link-nav i {
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+
+/*************** NAVBAR CONNECTE **************/
+
+#connexion {
+    width: 100%;
+    margin-top: 75%;
+    background-color: #C1C3C4;
+    padding: 0.5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#connexion button {
+    margin-top: 5px;
+    padding: 3vh;
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*************** PAGE PRINCIPALE LOGO **************/
+
+#corps-page {
+    width: 89vw;
+    position: absolute;
+    margin-top: 6vh;
+    margin-left: 11%;
+    background-color: #EAEBED;
+
+}
+
+#logo-principal img {
+    width: 15vw;
+    margin-top: 10px;
+}
+
+#logo-principal h2 {
+    color: rgb(0, 157, 255);
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 6vh;
+}
+
+#logo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*************** PAGE PRINCIPALE MIDDLE BARS **************/
+
+.middle-bar {
+    background-color: rgb(0, 157, 255);
+    padding: 2vh;
+    margin: auto 2vh 2vh;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.middle-bar p {
+    margin-top: 2vh;
+}
+
+/*************** PAGE PRINCIPALE RUBRIQUE  **************/
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+    flex-wrap: nowrap;
+    width: 89vw;
+}
+
+.container {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#rubriques {
+    margin-left: 1vh;
+}
+
+.rubrique1,
+.rubrique2,
+.rubrique3,
+.rubrique4 {
+    background-color: white;
+    height: 39vh;
+    width: 40vh;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#rubriques h3,
+#rubriques p {
+    width: 30vh;
+    margin-left: -10vh;
+
+
+}
+
+.rubrique1 img,
+.rubrique2 img,
+.rubrique3 img,
+.rubrique4 img {
+    padding: 2vh;
+    background-color: rgb(0, 157, 255);
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-bottom: 4vh;
+    margin-top: 6vh;
+}
+
+#rubriques a{
+    text-decoration: none;
+    color: black;
+    
+}
